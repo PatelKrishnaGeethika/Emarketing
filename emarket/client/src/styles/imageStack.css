@@ -1,0 +1,47 @@
+.image-stack {
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  /* height: inherit; */
+}
+
+.image-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;
+  /* height: inherit; */
+}
+
+.image-single img {
+  padding: 1rem;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.image-stack i {
+  padding: 10px;
+  border-radius: 50%;
+}
+.image-stack i:hover {
+  background-color: var(--pr2);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .image-stack {
+    padding: 0.5rem;
+  }
+  .image-single {
+    max-height: 15rem;
+  }
+  .image-single img {
+    padding: 0.5rem;
+  }
+  .image-stack i {
+    font-size: medium;
+    padding: 5px;
+  }
+}

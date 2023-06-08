@@ -1,0 +1,64 @@
+.req-card {
+  padding: 1rem 5rem;
+  border: 2px solid black;
+  border-radius: 1rem;
+  margin: 1rem auto;
+  max-width: 80%;
+  /* background-color: antiquewhite; */
+  background-color: white;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.choices {
+  display: flex;
+  justify-content: space-around;
+}
+.choices button {
+  border-radius: 0.5rem;
+  padding: 0.25rem;
+  margin-right: 1rem;
+}
+.choices button:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 2px 3px var(--pr2);
+}
+.accept {
+  background-color: greenyellow;
+}
+.reject {
+  background-color: red;
+}
+
+.request-list {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+  background-color: var(--pr1_light);
+  flex-direction: column;
+  margin-top: 5rem;
+  border-radius: 2rem;
+}
+.request-list h3 {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .req-card {
+    flex-direction: column;
+    padding: 1rem 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .request-list {
+    max-width: 100%;
+    margin: 3rem 1rem;
+  }
+  .req-card {
+    padding: 0.5rem 1rem;
+    max-width: 100%;
+    margin: 1rem 1rem;
+  }
+}

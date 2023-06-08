@@ -1,0 +1,68 @@
+.my-background {
+  background-image: linear-gradient(
+    135deg,
+    var(--pr2),
+    var(--pr1) 30%,
+    var(--pr1_dark)
+  );
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 5rem;
+  border-radius: 1.5rem;
+  /* filter: opacity(80%); */
+  background: inherit;
+  /* overflow: hidden; */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+.signin-button {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.signin-button button {
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  align-items: center;
+  gap: 0.25rem;
+}
+.signin-button button:hover {
+  cursor: pointer;
+  background-color: var(--pr2);
+  box-shadow: 0 2px 2px rgba(104, 104, 104, 0.3),
+    0 2px 2px rgba(140, 255, 251, 0.15);
+  transform: translateY(-1px);
+}
+.fa-google {
+  background: conic-gradient(
+      from -45deg,
+      #ea4335 110deg,
+      #4285f4 90deg 180deg,
+      #34a853 180deg 270deg,
+      #fbbc05 270deg
+    )
+    73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+/* For sign up */
+.signup {
+  background: inherit;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}

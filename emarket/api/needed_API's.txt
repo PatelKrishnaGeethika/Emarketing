@@ -1,0 +1,22 @@
+1. /api/products/{all or wishlist or sold only for get}:
+    GET - get all products basic info with pagination (page query)
+    POST - add new product to the db
+
+2. /api/product/{all or sold}/:id
+    GET - check if the caller has access to contact and if yes send contact else no { 3 status: not clicked, in process and has access }
+    POST - check if the caller is owner and then edit info of particular product
+    DELETE - check if the caller is owner and then delete the product
+
+3. /api/product/search/query=?:
+    GET - for suggestions to search
+
+4. /api/product/comments/:productid
+    GET - gets all the comments for this product
+    POST - adds new comment to this product 
+
+
+
+
+TODO
+
+1. Seperate table for sold products.

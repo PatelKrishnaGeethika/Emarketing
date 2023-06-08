@@ -1,0 +1,38 @@
+.btn-cont {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.addbutton {
+  background-image: linear-gradient(to right, #006175 0%, #00a950 100%);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #00a84f;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  padding: 4px;
+  text-decoration: none;
+  width: 7em;
+  display: flex;
+}
+
+.addbutton:hover {
+  color: #fff;
+}
+
+.addbutton .addbuttonspan {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.addbutton:hover .addbuttonspan {
+  background: transparent;
+}

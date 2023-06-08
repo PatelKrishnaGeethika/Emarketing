@@ -1,0 +1,7 @@
+1. Add the feature for notification dot.
+2. Forms part of the FE.
+3. Edit product card based on products, sold products. 
+4. Remove Items from cart.
+
+284221404232-c2vfbtdpeq3ajq57hmn71t401i5u5ifv.apps.googleusercontent.com
+only IITH: 1046710668399-14mb21fqdlgdqng3illv5u41b44h2jvb.apps.googleusercontent.com

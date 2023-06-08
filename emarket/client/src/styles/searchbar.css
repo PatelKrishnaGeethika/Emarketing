@@ -1,0 +1,117 @@
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 5rem;
+  padding: 0rem 1rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  position: relative;
+}
+.search-icon {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.search-icon:hover {
+  cursor: pointer;
+  background-color: var(--pr2);
+}
+.filter {
+  position: relative;
+}
+
+.filter-icon {
+  display: flex;
+  align-items: center;
+  margin: 0.25rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.filter-icon:hover {
+  cursor: pointer;
+  background-color: var(--pr2);
+}
+
+.results {
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+  width: 100%;
+  margin-top: 0.25rem;
+}
+.related-item {
+  padding: 0.125rem 1rem;
+}
+.related-item:hover {
+  cursor: pointer;
+  background-color: var(--pr2);
+}
+
+.filter-options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 50;
+  top: 100%;
+  left: 0;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+  width: 400%;
+}
+.filter-options label {
+  padding: 0.25rem 0.25rem;
+  border-radius: 0.5rem;
+}
+.filter-options label:hover {
+  cursor: pointer;
+  background-color: var(--pr2);
+}
+.filter-options label i {
+  margin-left: 1rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+.filter-options label i:hover {
+  background-color: white;
+}
+@media only screen and (max-width: 1000px) {
+  .searchbar {
+    margin: 1rem 2rem;
+  }
+  .search {
+    width: 70%;
+  }
+  .filter-options {
+    width: 250%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .searchbar {
+    margin: 1rem 1rem;
+    padding: 0;
+    position: relative;
+  }
+  .filter {
+    position: static;
+  }
+  .filter-options {
+    width: 80%;
+    left: 5%;
+  }
+}

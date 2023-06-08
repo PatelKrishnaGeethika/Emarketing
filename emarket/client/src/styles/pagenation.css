@@ -1,0 +1,21 @@
+.pagenation {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin: 2rem;
+}
+
+.page-count {
+  background-color: var(--pr2);
+  padding: 0.5rem 1rem;
+}
+
+.pg-arrow {
+  padding: 0.4rem;
+}
+.pg-arrow:hover {
+  cursor: pointer;
+  background-color: var(--pr2);
+  border-radius: 50%;
+}

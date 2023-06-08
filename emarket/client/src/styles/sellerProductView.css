@@ -1,0 +1,55 @@
+.product {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 2rem 1fr 1fr 2rem;
+  gap: 1rem;
+}
+.seller-product-imgs {
+  grid-column: 2/3;
+}
+.productinfo {
+  grid-column: 3/4;
+}
+.buttons {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons button {
+  padding: 0.25rem;
+  border-radius: 0.5em;
+}
+.buttons button:hover {
+  transform: translateY(-2px);
+  box-shadow: 2px 2px 2px 3px var(--pr2);
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: antiquewhite;
+}
+.sold-button {
+  background-color: rgb(88, 246, 88);
+}
+.delete-button {
+  background-color: red;
+}
+
+@media only screen and (max-width: 1000px) {
+  .product {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product {
+    margin-top: 1rem;
+  }
+  .productdata {
+    margin: 1rem;
+    margin-top: 2rem;
+  }
+}

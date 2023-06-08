@@ -1,0 +1,33 @@
+.otp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.otp p {
+  color: red;
+  margin: 0.5rem 0rem;
+}
+.otp form {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.otp form input {
+  border-radius: 0.5rem;
+}
+
+.otp button {
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  width: 5rem;
+}
+.otp button:hover {
+  cursor: pointer;
+  background-color: var(--pr2);
+  transform: translateY(-1px);
+}

@@ -1,0 +1,10 @@
+.products-display {
+  margin: auto;
+  width: 90%;
+}
+
+@media only screen and (max-width: 700px) {
+  .products-display {
+    width: 100%;
+  }
+}

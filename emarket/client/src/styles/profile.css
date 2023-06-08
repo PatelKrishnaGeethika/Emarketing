@@ -1,0 +1,69 @@
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+}
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.profile-text {
+  word-wrap: break-word;
+}
+
+.profile-text h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.profile-text p {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+.profile-text span {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.logout-btn {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background-color: rgba(255, 0, 0, 0.7);
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+.logout-btn:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 1);
+  transform: translateY(-2px);
+}
+
+@media screen and (max-width: 600px) {
+  .profile-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile-text {
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+  .profile-text h1 {
+    font-size: 1.5rem;
+  }
+  .profile-text p {
+    font-size: 1rem;
+  }
+  .profile-text span {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+}

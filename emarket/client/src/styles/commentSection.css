@@ -1,0 +1,80 @@
+.commentsection {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: var(--pr1_light);
+  border-radius: 1rem;
+  box-shadow: 4px 4px 4px rgba(104, 104, 104, 0.3),
+    4px 4px 4px rgba(140, 255, 251, 0.15);
+}
+
+.comment {
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  margin: 0.5rem;
+  background-color: var(--pr2_light);
+  box-shadow: 4px 4px 4px rgba(104, 104, 104, 0.3),
+    4px 4px 4px rgba(140, 255, 251, 0.15);
+}
+
+.commentor {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.7rem;
+  background-color: var(--pr2);
+  /* border: 1px solid black; */
+  border-radius: 0.5rem;
+}
+.commentor i {
+  margin-right: 0.25rem;
+  background-color: white;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+.comment-text {
+  padding: 1rem 0rem;
+  /* text-align: justify;
+  text-justify: auto;
+  word-break: break-all; */
+}
+
+.new-comment {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  margin: 0px 1rem;
+}
+.new-comment i {
+  padding: 0.5rem 0.25rem;
+  padding-right: 0.5rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  background-color: var(--pr2_light);
+}
+.new-comment i:hover {
+  cursor: pointer;
+  background-color: var(--pr2);
+}
+/* .new-comment input[type="text"] {
+  border: none;
+} */
+
+@media only screen and (max-width: 600px) {
+  .commentsection {
+    margin: 1rem 1rem;
+    max-width: 100%;
+  }
+  .comment {
+    margin: 0.5rem 0rem;
+  }
+  .comment-text {
+    padding: 0.25rem 0rem;
+  }
+  .new-comment {
+    margin: 0.5rem 0rem;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,16 @@
+.test {
+  display: grid;
+  grid-template-columns: 25rem 2rem;
+  /* max-width: 80%; */
+  margin: auto;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.searchbar {
+  grid-column: 1/2;
+}
+
+.filter-dropdown {
+  grid-column: 1/3;
+}

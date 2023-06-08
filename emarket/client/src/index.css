@@ -1,0 +1,42 @@
+:root {
+  --pr1: #a5e8d3;
+  --pr1_dark: #8ac4b1;
+  --pr1_light: #def9ef;
+  --pr2: #dcdcdd;
+  --pr2_dark: #c3c4c7;
+  --pr2_light: #fefeff;
+  --grey: #dcdcdd;
+  --black: black;
+  --blue: #a5e8d3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: medium;
+  /* background-color: burlywood; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.underline {
+  width: 100%;
+  border: 2px solid black;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+.page-name {
+  margin-top: 1rem;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
